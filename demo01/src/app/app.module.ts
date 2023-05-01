@@ -21,6 +21,12 @@ import { MatIconModule } from '@angular/material/icon';
 import { SideNavComponent } from './component/side-nav/side-nav.component';
 import { HeaderComponent } from './component/header/header.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
+
+import { EstadoDialogoComponent } from './component/estado/estado-listar/estado-dialogo/estado-dialogo.component';
+import { EstadoInsertarComponent } from './component/estado/estado-insertar/estado-insertar.component'
+import { EstadoComponent } from './component/estado/estado.component';
+import { EstadoListarComponent } from './component/estado/estado-listar/estado-listar.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +36,11 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     EspecialidadDialogoComponent,
     SideNavComponent,
     HeaderComponent,
+    
+    EstadoComponent,
+    EstadoListarComponent,
+    EstadoInsertarComponent,
+    EstadoDialogoComponent
 
   ],
   imports: [
