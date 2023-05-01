@@ -32,6 +32,11 @@ import { UsuarioListarComponent } from './component/usuario/usuario-listar/usuar
 import { UsuarioInsertarComponent } from './component/usuario/usuario-insertar/usuario-insertar.component';
 import { UsuarioDialogoComponent } from './component/usuario/usuario-listar/usuario-dialogo/usuario-dialogo.component';
 
+import { DisponibilidadComponent } from './component/disponibilidad/disponibilidad.component';
+import { DisponibilidadListarComponent } from './component/disponibilidad/disponibilidad-listar/disponibilidad-listar.component';
+import { DisponibilidadInsertarComponent } from './component/disponibilidad/disponibilidad-insertar/disponibilidad-insertar.component';
+import { DisponibilidadDialogoComponent } from './component/disponibilidad/disponibilidad-listar/disponibilidad-dialogo/disponibilidad-dialogo.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,6 +56,11 @@ import { UsuarioDialogoComponent } from './component/usuario/usuario-listar/usua
     UsuarioListarComponent,
     UsuarioInsertarComponent,
     UsuarioDialogoComponent,
+    
+    DisponibilidadComponent,
+    DisponibilidadListarComponent,
+    DisponibilidadInsertarComponent,
+    DisponibilidadDialogoComponent, 
 
   ],
   imports: [
