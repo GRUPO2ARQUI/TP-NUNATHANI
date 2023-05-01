@@ -40,9 +40,6 @@ const routes: Routes = [
       {path: 'edicion/:id', component: UsuarioInsertarComponent},
     ],
   },  
-  
-];
-
  {
     path: 'disponibilidad',
     component: DisponibilidadComponent
