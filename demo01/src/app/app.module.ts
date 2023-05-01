@@ -70,6 +70,9 @@ import { Rutinas_recreativasDialogoComponent } from './component/rutinas_recreat
     Rutinas_recreativasListarComponent,
     Rutinas_recreativasInsertarComponent,
     Rutinas_recreativasDialogoComponent,
+    
+    HeaderComponent,
+    SideNavComponent,
 
   ],
   imports: [
