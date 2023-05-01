@@ -52,6 +52,7 @@ const routes: Routes = [
       {path: 'edicion/:id', component: DisponibilidadInsertarComponent},
     ],
   },
+<<<<<<< HEAD
 
   {
     path: 'rutinas_recreativas',
@@ -64,6 +65,9 @@ const routes: Routes = [
   },
 
 ];
+=======
+]
+>>>>>>> main
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

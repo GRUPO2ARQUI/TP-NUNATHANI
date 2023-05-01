@@ -76,7 +76,7 @@ export class EspecialidadInsertarComponent implements OnInit {
     if (this.edicion) {
       this.eS.listId(this.id).subscribe((data) => {
         this.form = new FormGroup({
-          id: new FormControl({value: data.id, disabled: true}),
+          id: new FormControl(data.id),
           tipoEspecialidad: new FormControl(data.tipoEspecialidad),
           descripcionEspecialidad: new FormControl(data.descripcionEspecialidad),
           centroEspecialidad: new FormControl(data.centroEspecialidad),
