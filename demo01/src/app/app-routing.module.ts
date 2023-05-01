@@ -49,7 +49,7 @@ const routes: Routes = [
       {path: 'edicion/:id', component: DisponibilidadInsertarComponent},
     ],
   },
-
+]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
