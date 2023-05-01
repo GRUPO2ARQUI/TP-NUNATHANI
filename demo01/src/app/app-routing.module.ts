@@ -52,8 +52,6 @@ const routes: Routes = [
       {path: 'edicion/:id', component: DisponibilidadInsertarComponent},
     ],
   },
-<<<<<<< HEAD
-
   {
     path: 'rutinas_recreativas',
     component: Rutinas_recreativasComponent
@@ -63,11 +61,8 @@ const routes: Routes = [
       {path: 'edicion/:id', component: Rutinas_recreativasInsertarComponent},
     ],
   },
-
 ];
-=======
-]
->>>>>>> main
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
