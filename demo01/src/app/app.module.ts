@@ -37,6 +37,11 @@ import { DisponibilidadListarComponent } from './component/disponibilidad/dispon
 import { DisponibilidadInsertarComponent } from './component/disponibilidad/disponibilidad-insertar/disponibilidad-insertar.component';
 import { DisponibilidadDialogoComponent } from './component/disponibilidad/disponibilidad-listar/disponibilidad-dialogo/disponibilidad-dialogo.component';
 
+import { Rutinas_recreativasComponent } from './component/rutinas_recreativas/rutinas_recreativas.component';
+import { Rutinas_recreativasListarComponent } from './component/rutinas_recreativas/rutinas_recreativas-listar/rutinas_recreativas-listar.component';
+import { Rutinas_recreativasInsertarComponent } from './component/rutinas_recreativas/rutinas_recreativas-insertar/rutinas_recreativas-insertar.component';
+import { Rutinas_recreativasDialogoComponent } from './component/rutinas_recreativas/rutinas_recreativas-listar/rutinas-recreativas-dialogo/rutinas-recreativas-dialogo.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,8 +49,7 @@ import { DisponibilidadDialogoComponent } from './component/disponibilidad/dispo
     EspecialidadComponent,
     EspecialidadInsertarComponent,
     EspecialidadDialogoComponent,
-    SideNavComponent,
-    HeaderComponent,
+
     
     EstadoComponent,
     EstadoListarComponent,
@@ -61,6 +65,11 @@ import { DisponibilidadDialogoComponent } from './component/disponibilidad/dispo
     DisponibilidadListarComponent,
     DisponibilidadInsertarComponent,
     DisponibilidadDialogoComponent, 
+
+    Rutinas_recreativasComponent,
+    Rutinas_recreativasListarComponent,
+    Rutinas_recreativasInsertarComponent,
+    Rutinas_recreativasDialogoComponent,
 
   ],
   imports: [
